@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+section {
+  border-top: 2px solid #ccf;
+  padding: 20px;
+}
