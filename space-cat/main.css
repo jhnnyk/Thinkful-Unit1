@@ -1,0 +1,80 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** your styles go here **/
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 60px;
+  background-color: gray;
+}
+
+nav ul,
+nav li,
+nav img {
+  float: left;
+}
+
+nav img {
+  border-radius: 50%;
+  border: 3px solid black;
+  height: 50px;
+  width: 50px;
+  margin: 5px 0;
+}
+
+nav ul {
+  margin-top: 20px;
+}
+
+nav li {
+  list-style-type: none;
+  margin-left: 3px;
+}
+
+nav li::after {
+  content: ' | ';
+}
+
+main {
+  border: 10px dotted green;
+  width: 600px;
+  height: 300px;
+  margin: 200px auto;
+  position: relative;
+}
+
+main img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.topleft-img {
+  top: -100px;
+  left: -100px;
+}
+
+.bottomright-img {
+  bottom: -100px;
+  right: -100px;
+}
+
+/*  
+    backgroung image CSS from 
+    https://css-tricks.com/perfect-full-page-background-image/
+*/
+html { 
+  background: url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
