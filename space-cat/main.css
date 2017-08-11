@@ -16,27 +16,21 @@ nav {
   background-color: gray;
 }
 
-nav ul,
-nav li,
-nav img {
-  float: left;
-}
-
 nav img {
   border-radius: 50%;
   border: 3px solid black;
   height: 50px;
   width: 50px;
   margin: 5px 0;
+  vertical-align: middle;
 }
 
 nav ul {
-  margin-top: 20px;
+  display: inline-block;
 }
 
 nav li {
-  list-style-type: none;
-  margin-left: 3px;
+  display: inline-block;
 }
 
 nav li::after {
