@@ -1,0 +1,50 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Your styles go here! */
+main {
+  width: 800px;
+  margin: 20px auto;
+  font-size: 0;
+}
+
+div {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.halfs {
+  width: 50%;
+  height: 200px;
+}
+
+.thirds {
+  width: 33.333%;
+  height: 300px;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
+}
