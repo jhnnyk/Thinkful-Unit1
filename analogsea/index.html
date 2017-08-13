@@ -14,16 +14,17 @@
 
   <main>
     <form action="/signup/" method="post">
-      <h1>Sign Up</h1>
+      <fieldset>
+        <legend>Sign Up</legend>
 
-      <label for="email">Email</label><br>
-      <input type="email" name="email" id="email" placeholder="foo@bar.com" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="foo@bar.com" required><br>
 
-      <label for="password">Password</label><br>
-      <input type="password" name="password" id="password" placeholder="1234passw0rd" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="1234passw0rd" required><br>
 
-      <button type="submit">Sign up</button>
-
+        <button type="submit">Sign up</button>
+      </fieldset>
       <p class="forgotPassword"><a href="/forgot-password/new">Forgot password?</a></p>
     </form>
 
