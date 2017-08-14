@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+header {
+  background-color: #e7b85b;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #ccc;
+}
+
+.card h3 {
+  margin: 20px 15px 10px;
+}
+
+.card p {
+  margin: 10px 15px 20px;
+}
